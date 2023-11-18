@@ -1,0 +1,33 @@
+This is to educate noobs on the how to create a local server on thier machine.
+Note. IPs are not free, Ips used on mobile devices are allocated by the ISPs(Internet Service Prioviders)
+Hot Topic -> Public and Private IPs.
+The intention of this post is to educate the lay man(computer noob) about the mysteries surrounding IPs, when you open your command line to request for an IP when connected to the internet i belive you see a lot of IP addresses,
+there are both public and private IP addresses there, the private ones in a nutshell are the ones you cant use to access data outside that network connection, lets say you have 3 devices connected on a router, the router always 
+have a starting point address, most routers come with the address (192.168.0.0) as the starting address in which they'll use to allocate data to the other devices connected to them, example {"device1":192.168.0.0.1, "device2":192.168.0.2}
+and so on
+
+-> These private IPs are not visible over the internet, only the network you are connected on, to access the internet the router requests a public IP from the ISP(Internet Service Providers) which it uses to communicate outside the network,
+so the router keeps tags on the different packets leaving router to be able to know which device to route the packet to when it recieves a response, so to be able to use the internet you'll need a public IP to be visible on the internet.
+
+-> Why do you need an IP?
+Basically a ton of reasons which i cant highlight here.
+but one here is to create a server for interactions between your device and another device in another location, mostly known as server -> client communication?
+for a chat application, real time communication (video and audio), file transfers e.t.c.
+
+-> I'll be updating tested templates of codes, all codes will be written mostly in C.
+it'd be best to be able to have a Lil undertanding of C to be able to read the code.
+
+if you dont want to make uose of your public IP, you could request an IP through the services of a VPN (Nord VPN preferably), also helping with anonymity to a certain level.
+be warned, if you commit a heinous crime you'll be found no matter the level of security used.
+No one is bigger than a government.
+
+
+IN THIS FIRST EXAMPLE I'LL BE GIVING UPDATES ON HOW TO GENERATE YOUR PUBLIC IP TO BE ABLE TO CREATE A REMOTE SERVER FOR THOSE WITTHOUT THE MEANS OF PAYING FOR AN IP.
+
+READ CAREFULLY: be extra carefully when dealing with internet buisness because it can all be traced bact to YOU!!!!
+
+
+if you have good intentions, then the information above is not for you
+
+My goal is to create a community that is tech savy!!!
+Have fun coding.
